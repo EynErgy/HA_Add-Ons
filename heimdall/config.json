@@ -19,7 +19,7 @@
     "443/tcp": "web interface (SSL)"
   },
   "map": [
-    "addon-config:rw",
+    "addon_config:rw",
     "share:rw",
     "ssl"
   ],
