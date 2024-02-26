@@ -3,7 +3,7 @@ ARG BUILD_FROM
 FROM $BUILD_FROM
 
 RUN apk add --no-cache \
-        jq=1.6-r1 \
+        jq=1.7.1-r0 \
     && curl -J -L -o /tmp/bashio.tar.gz \
         "https://github.com/hassio-addons/bashio/archive/v0.16.2.tar.gz" \
     && mkdir /tmp/bashio \
