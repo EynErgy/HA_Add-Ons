@@ -3,7 +3,7 @@ description: >-
   "Applications Dashboard"
 version: "2.6.1-ls258"
 url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall-vanilla#readme"
-slug: "heimdall-vanilla"
+slug: "heimdall-vanilla-test"
 init: false
 arch:
   - aarch64
