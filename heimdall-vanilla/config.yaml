@@ -1,17 +1,21 @@
 name: "Heimdall"
-version: "2.6.1"
-slug: folder
 description: >-
   "Applications Dashboard"
-arch:
-  - amd64
-  - aarch64
+version: "2.6.1-ls258"
 url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall-vanilla#readme"
+slug: "heimdall"
+init: false
+arch:
+  - aarch64
+  - amd64
 ports:
-  80/tcp: 82
-  443/tcp: 8445
+  80/tcp: 80
+  443/tcp: 443
+ports_description:
+  80/tcp: "Web interface"
+  443/tcp: "Web interface SSL"
 map:
-  - config:rw
-  - share:rw
   - ssl
-image: linuxserver/heimdall:{arch}-v2.6.1-ls254
+  - addon_config:rw
+  - share:rw
+image: eynergy/ha_addons:{arch}-v2.6.1-ls258
