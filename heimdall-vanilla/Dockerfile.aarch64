@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM nuxserver/heimdall:arm64v8-v2.6.1-ls258
 
 # Copy data for add-on
 COPY run.sh /
