@@ -18,3 +18,4 @@ map:
   - ssl
   - addon_config:rw
   - share:rw
+image: eynergy/ha_addons:{arch}-v2.6.1-ls258
