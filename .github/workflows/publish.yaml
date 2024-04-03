@@ -22,4 +22,4 @@ jobs:
           args: |
             --all \
             --target heimdall \
-            --docker-hub eynergy/ha_addons
+            --docker-hub ha_addons
