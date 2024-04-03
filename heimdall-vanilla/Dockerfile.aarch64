@@ -1,4 +1,4 @@
-FROM nuxserver/heimdall:arm64v8-v2.6.1-ls258
+FROM linuxserver/heimdall:arm64v8-v2.6.1-ls260
 
 # Copy data for add-on
 COPY run.sh /

@@ -1,6 +1,6 @@
 name: "Heimdall"
 description: >-
-  "Applications Dashboard"
+  "Applications Dashboard vanilla"
 version: "2.6.1"
 url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall-vanilla#readme"
 slug: "heimdall"
