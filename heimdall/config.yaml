@@ -1,8 +1,8 @@
 name: "Heimdall"
 description: >-
-  "Applications Dashboard vanilla"
+  "Applications Dashboard"
 version: "2.6.1"
-url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall-vanilla#readme"
+url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall#readme"
 slug: "heimdall"
 init: false
 arch:
@@ -18,4 +18,4 @@ map:
   - ssl
   - addon_config:rw
   - share:rw
-image: eynergy/ha_addons:heimdall-{arch}
+#image: eynergy/ha_addons:heimdall-{arch}
