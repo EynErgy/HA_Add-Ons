@@ -6,7 +6,6 @@ url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall#readme"
 slug: "heimdall"
 init: false
 startup: services
-boot: auto
 arch:
   - aarch64
   - amd64
