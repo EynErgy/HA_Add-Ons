@@ -17,5 +17,4 @@ ports_description:
 map:
   - ssl
   - addon_config:rw
-  - share:rw
 image: eynergy/heimdall-{arch}
