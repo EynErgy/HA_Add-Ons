@@ -5,6 +5,8 @@ version: "2.6.1-ls260"
 url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall#readme"
 slug: "heimdall"
 init: false
+startup: services
+boot: auto
 arch:
   - aarch64
   - amd64
@@ -17,4 +19,12 @@ ports_description:
 map:
   - ssl
   - addon_config:rw
+  - share:rw
+options:
+  PUID: 1001
+  PGID: 1001
+schema:
+  PUID: int
+  PGID: int
+  TZ: str?
 image: eynergy/heimdall-{arch}
