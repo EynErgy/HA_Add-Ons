@@ -1,4 +1,4 @@
-# Hassio Add-ons by petersendev: heimdall
+# Home Assistant Add-on: heimdall
 
 ## About
 
@@ -11,7 +11,7 @@ This addon is based on the [docker image](https://github.com/linuxserver/docker-
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
-1. [Add my Hass.io add-ons repository][repository] to your Hass.io instance.
+1. [Add my Home Assistant add-ons repository][repository] to your Home Assistant instance.
 1. Install this add-on.
 1. Click the `Save` button to store your configuration.
 1. Start the add-on.
@@ -21,6 +21,6 @@ comparison to installing any other Hass.io add-on.
 
 ## Configuration
 
-Webui can be found at `<your-ip>:82`.
+Webui can be found at `<your-ip>`.
 
-[repository]: https://github.com/petersendev/hassio-addons
+[repository]: https://github.com/EynErgy/HA_Add-Ons
