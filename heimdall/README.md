@@ -9,7 +9,7 @@ This addon is based on the [docker image](https://github.com/linuxserver/docker-
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Hass.io add-on.
+comparison to installing any other Home Assistant add-on.
 
 1. [Add my Home Assistant add-ons repository][repository] to your Home Assistant instance.
 1. Install this add-on.
