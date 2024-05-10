@@ -1,7 +1,7 @@
 name: "Heimdall"
 description: >-
   "Applications Dashboard"
-version: "2.6.1-ls265"
+version: "2.6.1-ls266"
 url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/heimdall#readme"
 slug: "heimdall"
 init: false
