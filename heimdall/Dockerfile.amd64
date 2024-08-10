@@ -1,4 +1,4 @@
-FROM linuxserver/heimdall:amd64-v2.6.1-ls269
+FROM linuxserver/heimdall:amd64-v2.6.1-ls278
 RUN apk add --no-cache \
         jq=1.7.1-r0 \
     && curl -J -L -o /tmp/bashio.tar.gz \
