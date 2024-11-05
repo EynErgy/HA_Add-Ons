@@ -1,3 +1,3 @@
 build_from:
-  aarch64: linuxserver/heimdall:arm64v8-v2.6.1-ls278
-  amd64: linuxserver/heimdall:amd64-v2.6.1-ls278
+  aarch64: linuxserver/heimdall:arm64v8-v2.6.2-ls287
+  amd64: linuxserver/heimdall:amd64-v2.6.2-ls287

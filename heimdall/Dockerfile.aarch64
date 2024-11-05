@@ -1,4 +1,4 @@
-FROM linuxserver/heimdall:arm64v8-v2.6.1-ls278
+FROM linuxserver/heimdall:arm64v8-v2.6.2-ls287
 
 RUN apk add --no-cache \
         jq=1.7.1-r0 \
