@@ -1,10 +1,9 @@
 ---
 name: Prometheus
-version: dev
+version: "3.2.1"
 slug: prometheus
 description: Cloud native metrics
-url: https://github.com/hassio-addons/addon-prometheus
-codenotary: codenotary@frenck.dev
+url: "https://github.com/EynErgy/HA_Add-Ons/tree/master/prometheus#readme"
 startup: services
 ingress: true
 ingress_port: 9090
@@ -23,3 +22,4 @@ ports:
   9090/tcp: null
 ports_description:
   9090/tcp: Not required for Ingress
+image: eynergy/prometheus-{arch}
